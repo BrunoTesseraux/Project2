@@ -55,9 +55,16 @@ header div a {
   text-decoration: none;
   color: #666666;
 }
+a.a {
+  display: inline-block;
+  padding-top: 80px;
+}
 header div a.a::before {
   content: "\2193";
   font-family: ´lucida grande´;
+}
+section.article {
+  padding-top: 0;
 }
 main div {
   border-top: 1px solid #ccc;
