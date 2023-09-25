@@ -54,6 +54,7 @@ header div a {
   font-size: 16px;
   text-decoration: none;
   color: #666666;
+  transition: 0.5s;
 }
 a.a {
   display: inline-block;
@@ -62,6 +63,15 @@ a.a {
 header div a.a::before {
   content: "\2193";
   font-family: ´lucida grande´;
+}
+header div a.a:hover {
+  text-shadow: 1px 1px 5px #000;
+}
+header div a.b:hover {
+  filter: brightness(80%);
+}
+header div nav ul li a:hover {
+  text-shadow: 1px 1px 5px #000;
 }
 section.article {
   padding-top: 0;
@@ -78,11 +88,13 @@ main div p {
   padding-top: 15px;
 }
 main div section {
-  padding: 80px 180px;
+  padding: 80px 80px;
+  text-align: center;
 }
 main div section img {
   width: 350px;
-  padding: 26px;
+  margin: 15px;
+  transition: 0.5s;
 }
 main h2 {
   font-size: 20px;
@@ -102,6 +114,10 @@ article.left {
 }
 img.article {
   width: 756px;
+  padding: 0;
+}
+main img:hover {
+  box-shadow: 0 0 10px #000;
 }
 section.article {
   padding-bottom: 180px;
