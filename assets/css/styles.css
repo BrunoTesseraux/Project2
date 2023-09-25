@@ -60,10 +60,6 @@ a.a {
   display: inline-block;
   padding-top: 80px;
 }
-header div a.a::before {
-  content: "\2193";
-  font-family: ´lucida grande´;
-}
 header div a.a:hover {
   text-shadow: 1px 1px 5px #000;
 }
