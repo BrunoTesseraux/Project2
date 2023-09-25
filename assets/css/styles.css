@@ -1,0 +1,130 @@
+@font-face {
+  font-family: "roboto";
+  src: url(./../fonts/Roboto-Regular.ttf);
+}
+* {
+  font-family: "roboto";
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #eee;
+}
+header {
+  padding-left: 100px;
+  padding-bottom: 100px;
+}
+header nav ul {
+  padding-top: 22px;
+}
+header div nav ul li {
+  display: inline-block;
+  padding-right: 22px;
+}
+header div section p::before {
+  content: "\2014";
+}
+header nav a {
+  color: #659d89;
+  text-align: right;
+  font-size: 14px;
+  text-decoration: none;
+}
+header h1 {
+  color: #659d89;
+  font-size: 49px;
+  padding-top: 100px;
+}
+header p {
+  color: black;
+  font-size: 49px;
+  width: 600px;
+}
+header div nav.social {
+  text-align: right;
+  padding-top: 35px;
+}
+header div nav.social li {
+  display: block;
+  padding-right: 100px;
+}
+header div nav.social li a img {
+  width: 20px;
+}
+header div a {
+  font-size: 16px;
+  text-decoration: none;
+  color: #666666;
+}
+header div a.a::before {
+  content: "\2193";
+  font-family: ´lucida grande´;
+}
+main div {
+  border-top: 1px solid #ccc;
+}
+main div h2 {
+  padding-left: 100px;
+  padding-top: 50px;
+}
+main div p {
+  padding-left: 100px;
+  padding-top: 15px;
+}
+main div section {
+  padding: 80px 180px;
+}
+main div section img {
+  width: 350px;
+  padding: 26px;
+}
+main h2 {
+  font-size: 20px;
+}
+main p {
+  font-size: 16px;
+}
+article.right {
+  text-align: center;
+  padding-left: 324px;
+  padding-top: 80px;
+}
+article.left {
+  text-align: center;
+  padding-right: 324px;
+  padding-top: 80px;
+}
+img.article {
+  width: 756px;
+}
+section.article {
+  padding-bottom: 180px;
+}
+h1.article {
+  font-size: 20px;
+  color: black;
+  padding: 20px 0;
+}
+p.article {
+  font-size: 12px;
+  color: #666;
+  padding: 0;
+}
+footer {
+  text-align: center;
+  border-top: 1px solid #ccc;
+  padding-top: 84px;
+}
+footer a {
+  text-decoration: none;
+  color: #666666;
+  font-size: 20px;
+}
+footer p {
+  color: #666666;
+  font-size: 10px;
+  padding-bottom: 37px;
+  padding-top: 80px;
+}
+footer p::before {
+  content: "\00a9";
+}
